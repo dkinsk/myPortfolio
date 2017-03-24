@@ -314,24 +314,22 @@ hr {
 } 
 
 
-
-
-@media screen and (max-height: 800px) and (orientation: landscape) {
-	.comics-thought {
-    top: 5%;
-    -moz-transform: scale(.60);
-    -webkit-transform: scale(.60);
-		transform: scale(.60);
-	}
-}
-
-@media (min-width: 801px) and (max-width: 3000px) and (orientation: landscape) {
+@media screen and (min-height: 783px) and (orientation: landscape) {
   .comics-thought {
     top: 8%;
     -moz-transform: scale(.90);
     -webkit-transform: scale(.90);
     transform: scale(.90);
   }
+}
+
+@media screen and (max-height: 782px) and (orientation: landscape) {
+	.comics-thought {
+    top: 5%;
+    -moz-transform: scale(.60);
+    -webkit-transform: scale(.60);
+		transform: scale(.60);
+	}
 }
 
 .icons {
